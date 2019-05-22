@@ -1,0 +1,15 @@
+current directory: /Users/tomtom/Local/CSC/Code/Rails-Fusic/sample_app/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+/Users/tomtom/.rbenv/versions/2.6.3/bin/ruby -I /Users/tomtom/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20190522-2484-jdacwd.rb extconf.rb
+creating Makefile
+
+current directory: /Users/tomtom/Local/CSC/Code/Rails-Fusic/sample_app/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/tomtom/Local/CSC/Code/Rails-Fusic/sample_app/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/cruby.bundle
+
+current directory: /Users/tomtom/Local/CSC/Code/Rails-Fusic/sample_app/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20190522-2484-1xzic2r/skiptrace
