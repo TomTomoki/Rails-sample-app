@@ -11,10 +11,13 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
+      log_in @user
       flash[:success] = "Welcome to the Sample App!"
       redirect_to @user # = redirect_to user_url(@user)
+        #redirect to the different URL without a new request
     else
       render 'new'
+        #With the same URL, render the different template without a new request
     end
   end
 
